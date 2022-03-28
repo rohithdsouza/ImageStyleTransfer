@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Style Transfer: Transform images with your imagination</title>
+    <meta name="description"
+        content="Image Style Transfer: Transform images with your imagination. A text based image style transfer application">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css" href="assets/css/process.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/aboutuscss.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav role='navigation' id="mainnav">
+        <br><br><br>
+        <ul class="gap">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="trial.html">ABOUT</a></li>
+            <li><a href="process.html">PROCESS</a></li>
+        </ul>
+    </nav>
+
+    <div class="hamb">
+        <a href="#"><i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="hero">
+        <div class="pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="section-head col-sm-12">
+                  <h4><span>About</span> Our Site</h4>
+                  <p>“What if we can bring our imagination into reality?” This is something the project is trying to address
+                    with the help of image style transfer and CLIP.
+                    <br>Image Style transfer is a technique used to take two images—a content image and a style reference
+                    image
+                    and blend them together so the output image looks
+                    like the content image, but “painted” in the style of the style reference image as shown below.
+                  </p>
+                </div>
+                <div class="section-head col-sm-12">
+                  <img class="rounded mx-auto d-block" src="../assets/images/nst_examples.jpg" alt="image" height="300px"
+                    width="400px">
+                  <br>
+                </div>
+                <div class="section-head col-sm-12">
+                  <p>“But what if one does not have a reference image but is still interested in transferring styles by just
+                    imagining them?
+                    <br>To overcome the above issue, here we are using text-to-image embedding model of CLIP to perform
+                    text-driven image style transfer without the use of a style image as a reference.
+                  </p>
+                </div>
+                <div class="section-head col-sm-12">
+                  <img class="rounded mx-auto d-block" src="../assets/images/imgtext.png" alt="image" height="400px"
+                    width="600px">
+                  <br>
+                </div>
+                <div class="section-head col-sm-12">
+                  <h4><span>Applica</span>tions</h4>
+                  <p>“Due to the visually plausible stylised results, the research of NST has led to many successful
+                    industrial
+                    applications and
+                    begun to deliver commercial benefit.
+                    <br>We summarise these applications and present some potential usages.
+                  </p>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-pencil"></i></span>
+                    <h6>PHOTO EDITORS</h6>
+                    <p>Many famous Photo Editing Apps use style transfer (but offer pre-defined or limited styling options)
+                      Eg:
+                      Prisma.
+                      Using text-style transfer we can provifde infinite styling options.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-paint-brush"></i></span>
+                    <h6>DIGITAL ART</h6>
+                    <p>Digital art is an artistic work that uses digital technology as part of the creative or presentation
+                      process.
+                      NST is also a form of digital art and people sell it and earn money.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-home"></i></span>
+                    <h6>HOME DECOR</h6>
+                    <p>Can be used by architects to produce stylized CAD drawings. Which would have been costly when created
+                      by
+                      hand.
+                      Can be used to produced stylized arts that can be displayed at homes.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-video-camera"></i></span>
+                    <h6>ENTERTAINMENT APPLICATIONS</h6>
+                    <p>Can be widely used in Movies, Animations and Games.
+                      Not only can it produce visually stunning artwork, but it can also do so in a fraction of cost and time,
+                      making it highly beneficial for the entertainment industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+  
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+
+        <canvas id="bubble"></canvas>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+        <script src="assets/js/bubble.js" type="text/javascript"> </script>
+
+
+
+</body>
+
+</html>
