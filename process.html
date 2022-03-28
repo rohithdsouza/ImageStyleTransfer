@@ -46,7 +46,7 @@
       The CNN model follows U-Net Architecture with 5 convolutional layers
       Sigmoid Activation function is used.
     </p>
-    <img src="/assets/images/cnn1.png" alt="imahe">
+    <img src="../assets/images/cnn1.png" alt="imahe">
   </div>
 
   <div class="head2">CLIP</div>
@@ -61,7 +61,7 @@
       Directional CLIP loss to modulate the whole part of the content image (e.g. color tone, global semantics)
       PatchCLIP loss- for local texture stylization. <br>
     </p>
-    <img src="/assets/images/overview-a.png" alt="imahe">
+    <img src="../assets/images/overview-a.png" alt="imahe">
 
   </div>
 
@@ -75,7 +75,7 @@
             <p>Loss to modulate
               the whole part of the content image
               (e.g. color tone, global semantics) <br>
-              <img src="/assets/images/1.png" alt="image" class="rounded float-center" ></p>
+              <img src="../assets/images/1.png" alt="image" class="rounded float-center" ></p>
               <p> where EI and ET are CLIP’s image
               and text encoders, respectively, and
               tsty, tsrc are the semantic text of the
@@ -94,7 +94,7 @@
               output produced. In this step
               random cropping of a fixed size and
               perspective augmentation is done. <br>
-              <img src="/assets/images/2.png" alt="image" class="rounded float-center" ></p>
+              <img src="../assets/images/2.png" alt="image" class="rounded float-center" ></p>
               <p> where ˆIi
                 cs is the i-th cropped patch
                 from the output image, aug is random
@@ -110,7 +110,7 @@
               image and the content image via the squared loss function. The two inputs of the 
               squared loss function are both outputs of the content layer.Let A^l_{ij}(I) be the activation of the l th layer, i th feature map and j th 
               position obtained using the image I.br>
-              <img src="/assets/images/rsz_3.png" alt="image" class="rounded float-center" > </p>
+              <img src="../assets/images/rsz_3.png" alt="image" class="rounded float-center" > </p>
           </div>
         </div>
         <div class="col-lg-6 col-sm-6">
@@ -118,7 +118,7 @@
             <h6>Total Variation Regularization loss</h6>
             <p>Loss to alleviate the side artifacts from
               irregular pixels. Finally, now our total loss function becomes: <br>
-              <img src="/assets/images/4a.png" alt="image" class="rounded float-center" ></p>
+              <img src="../assets/images/4a.png" alt="image" class="rounded float-center" ></p>
               <p> For each iteration our loss function is updated
                 and passed to CNN to guide the stylization
                 in the right direction

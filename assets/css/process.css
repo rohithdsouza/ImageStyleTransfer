@@ -1,0 +1,228 @@
+.first
+{
+    display: flex;
+    flex-direction: row;
+    border: 8px solid yellow;
+    padding-inline-start: 1cm;
+    padding-inline-end: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    height: 330px;
+    width: 1100px;
+    border-spacing: 100px;
+    margin: auto;
+    border-radius: 20px;
+    text-align:justify;
+    
+    
+}
+
+.second
+{
+    display: flex;
+    flex-direction: row;
+    border: 8px solid yellow;
+    padding-inline-start: 1cm;
+    padding-inline-end: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    height: 450px;
+    width: 1100px;
+    border-spacing: 2cm;
+    margin: auto;
+    text-align: justify;
+    border-radius: 20px;
+    
+}
+
+.third 
+{
+    display: flex;
+    flex-direction: row;
+    border: 8px solid yellow;
+    padding-inline-start: 1cm;
+    padding-inline-end: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    height: 250px;
+    width: 1100px;
+    border-spacing: 100px;
+    margin: auto;
+    margin-top: 1cm;
+    border-radius: 20px;
+    
+}
+
+.first img{
+    height: 200px;
+    width: 500px;
+    padding-top: 0.8cm;
+    
+}
+
+.second img{
+    height: 300px;
+    width: 700px;
+    padding-top: 0.4cm;
+    
+}
+
+.first p{
+    
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.second p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.first p{
+    padding-right: 1cm;
+    font-size: 1.25rem;
+    color: white;
+    text-align: justify;
+}
+
+.second p{
+    padding-right: 1cm;
+    font-size: 1.25rem;
+    color: white;
+    text-align: justify;
+}
+
+.head1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 4rem;
+    background-image: 
+      linear-gradient(90deg, #c60b47, #f092db);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.head2{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 4rem;
+    background-image: 
+      linear-gradient(90deg, #c60b47, #f092db);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1cm;
+}
+
+.item{
+    background:rgb(78 214 228);;
+    text-align: center;
+    padding:30px 25px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.07);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border:10px solid yellow;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+  }
+  .item:hover{
+    background:#161aee;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+  }
+  .item:hover .item,
+  .item:hover span.icon{
+    background:#fff;
+    border-radius: 10px;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+  }
+  .item:hover h6,
+  .item:hover p{
+    color:#fff;
+    -webkit-transition:all 0.5s ease 0s;
+    transition:all 0.5s ease 0s;
+  }
+  .item .icon{
+    font-size:40px;
+    margin-bottom: 25px;
+    color:#f91942;
+    width:90px;
+    height:90px;
+    line-height: 96px;
+    border-radius: 50px;
+  }
+  .item .feature_box_col_one{
+    background:rgba(247,198,5,0.2);
+    color:#f91942;
+  }
+  .item .feature_box_col_two{
+    background: rgba(255, 77, 28, 0.15);
+    color:#f91942;
+  }
+  .item .feature_box_col_three{
+    background:rgba(0,147,38,0.15);
+    color:#f91942;
+  }
+  .item .feature_box_col_four{
+    background:rgba(0,108,255,0.15);
+    color:#f91942;
+  }
+  .item .feature_box_col_five{
+    background:rgba(146,39,255,0.15);
+    color:#f91942;
+  }
+  .item .feature_box_col_six{
+    background:rgba(23,39,246,0.15);
+    color:#f91942;
+  }
+  .item p{
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .item h6{
+    margin-bottom: 20px;
+    color:#2f2f2f;
+  }
+  
+  #mainnav {
+    position: absolute;
+    font-family: 'Muli', sans-serif;
+    z-index: 1;
+
+  }
+
+  #mainnav li {
+    margin: 55px 0;
+    left: -550px;
+    position: relative;
+    display: none;
+
+  }
+
+  #mainnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+  }
+
+  .gap {
+
+    color: white;
+    margin-top: 100px;
+    width: 200px;
+  }
+
